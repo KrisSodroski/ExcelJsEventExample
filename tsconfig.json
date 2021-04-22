@@ -1,0 +1,58 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "preserveSymlinks": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types",
+      "src/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@viewengine/*": [
+        "node_modules/@viewengine/*"
+      ],
+      "@layout/*": [
+        "node_modules/@layout/*"
+      ],
+      "@dataengine/*": [
+        "node_modules/@dataengine/*"
+      ],
+      "@model/*": [
+        "node_modules/@model/*"
+      ],
+      "@azure/*": [
+        "node_modules/@azure/*"
+      ],
+      "@plugin/*": [
+        "node_modules/@plugin/*"
+      ],
+      "@tether/*": [
+        "node_modules/@tether/*"
+      ],
+      "@office/*": [
+        "node_modules/@office/*"
+      ],
+      "msal": [
+        "node_modules/msal/"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "enableIvy": false
+  }
+}

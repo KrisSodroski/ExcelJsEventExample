@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "tslint.configFile": "tslint.json",
+    "tslint.run": "onSave",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "terminal.integrated.rendererType": "experimentalWebgl"
+}
