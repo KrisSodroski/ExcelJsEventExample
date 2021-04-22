@@ -5,6 +5,7 @@ This project is supposed to show how onDeleted is not hit when onActivated is ad
 ## Setup
 
 `npm i` 
+
 `npm run ssl`
 
 Go to office on the web, and load the addin by loading the manifest.xml file. 
